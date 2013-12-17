@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_YzIhoFA3EeOZ0cD_u5XJ2w" name="repository.metadataGenericSchema" dataPackage="_Giq9QUYLEeOmC-LfIav_dw" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_Giq9QUYLEeOmC-LfIav_dw" name="repository.metadataGenericSchema" dataManager="_YzIhoFA3EeOZ0cD_u5XJ2w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Giq9QkYLEeOmC-LfIav_dw" name="metadata" id="_4v0RYEYKEeOmC-LfIav_dw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Giq9Q0YLEeOmC-LfIav_dw" name="id_parcelle" label="id_parcelle" sourceType="INT4" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Giq9REYLEeOmC-LfIav_dw" name="idpar" label="idpar" length="15" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="15"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Giq9RUYLEeOmC-LfIav_dw" name="code_departement" label="code_departement" length="3" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="3"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Giq9RkYLEeOmC-LfIav_dw" name="code_commune" label="code_commune" length="3" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="3"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Giq9R0YLEeOmC-LfIav_dw" name="prefixe_section" label="prefixe_section" length="3" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="3"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Giq9SEYLEeOmC-LfIav_dw" name="section" label="section" length="2" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="2"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Giq9SUYLEeOmC-LfIav_dw" name="numero" label="numero" length="4" sourceType="VARCHAR" talendType="id_String" nullable="false" originalLength="4"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_-8RVsFBUEeOZ0cD_u5XJ2w" name="id_parcelle_temp" label="id_parcelle_temp" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
