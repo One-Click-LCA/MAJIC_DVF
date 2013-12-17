@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_X8hpwFA3EeOZ0cD_u5XJ2w" name="repository.metadataGenericSchema" dataPackage="_-ahGIe7xEeKqXs1qKwydeg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_-ahGIe7xEeKqXs1qKwydeg" name="repository.metadataGenericSchema" dataManager="_X8hpwFA3EeOZ0cD_u5XJ2w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_-ahGIu7xEeKqXs1qKwydeg" name="metadata" id="_8UTAgO7xEeKqXs1qKwydeg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ohslcO8BEeKqXs1qKwydeg" name="id_adresse" label="id_adresse" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_ohslce8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ohtMhu8BEeKqXs1qKwydeg" name="num_voie" label="num_voie" sourceType="INT4" talendType="id_Integer">
+        <initialValue xmi:id="_ohtMh-8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ohtMiO8BEeKqXs1qKwydeg" name="b_t_q" label="b_t_q" length="1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_ohtMie8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_X6J7kEYNEeOmC-LfIav_dw" name="type_voie" label="type_voie" length="4" sourceType="VARCHAR" talendType="id_String" originalLength="4"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ohtMhO8BEeKqXs1qKwydeg" name="code_voie" label="code_voie" length="4" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_ohtMhe8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jMlSEEYNEeOmC-LfIav_dw" name="voie" label="voie" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lPHKgEYNEeOmC-LfIav_dw" name="code_postal" label="code_postal" length="5" sourceType="VARCHAR" talendType="id_String" originalLength="5"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_njY6QEYNEeOmC-LfIav_dw" name="commune" label="commune" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xE6DcFA3EeOZ0cD_u5XJ2w" name="id_adresse_temp" label="id_adresse_temp" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_YT1WgFA3EeOZ0cD_u5XJ2w" name="repository.metadataGenericSchema" dataPackage="_z_ecAer-EeKOl7JmxHWs4g" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_z_ecAer-EeKOl7JmxHWs4g" name="repository.metadataGenericSchema" dataManager="_YT1WgFA3EeOZ0cD_u5XJ2w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_z_ecAur-EeKOl7JmxHWs4g" name="metadata" id="_wDfuoOr-EeKOl7JmxHWs4g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WpJ2kO8BEeKqXs1qKwydeg" name="id_local" label="id_local" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_WpJ2ke8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WpJ2nO8BEeKqXs1qKwydeg" name="id_dispoparc" label="id_dispoparc" sourceType="INT4" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_WpJ2ne8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WpJ2ku8BEeKqXs1qKwydeg" name="identifiant_local" label="identifiant_local" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_WpJ2k-8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WpJ2lO8BEeKqXs1qKwydeg" name="code_type_local" label="code_type_local" length="1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_WpJ2le8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WpJ2mO8BEeKqXs1qKwydeg" name="surface_reelle_batie" label="surface_reelle_batie" precision="2" sourceType="NUMERIC" talendType="id_Double">
+        <initialValue xmi:id="_WpJ2me8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WpJ2mu8BEeKqXs1qKwydeg" name="nb_pieces_principales" label="nb_pieces_principales" sourceType="INT4" talendType="id_Integer">
+        <initialValue xmi:id="_WpJ2m-8BEeKqXs1qKwydeg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_JIwX0FBVEeOZ0cD_u5XJ2w" name="id_local_temp" label="id_local_temp" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_KKwnYFBVEeOZ0cD_u5XJ2w" name="id_dispoparc_temp" label="id_dispoparc_temp" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

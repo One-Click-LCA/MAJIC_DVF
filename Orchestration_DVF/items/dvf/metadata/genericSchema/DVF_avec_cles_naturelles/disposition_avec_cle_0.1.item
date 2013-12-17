@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_YPzyIFA3EeOZ0cD_u5XJ2w" name="repository.metadataGenericSchema" dataPackage="_qX-sQe7uEeKqXs1qKwydeg" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_qX-sQe7uEeKqXs1qKwydeg" name="repository.metadataGenericSchema" dataManager="_YPzyIFA3EeOZ0cD_u5XJ2w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qX-sQu7uEeKqXs1qKwydeg" name="metadata" id="_hfeagO7uEeKqXs1qKwydeg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v53mcO-9EeKEg9ERlCnoPw" name="id_disposition" label="id_disposition" sourceType="INT4" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_v53mce-9EeKEg9ERlCnoPw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v53mdu-9EeKEg9ERlCnoPw" name="id_mutation" label="id_mutation" sourceType="INT4" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_v53md--9EeKEg9ERlCnoPw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v53mcu-9EeKEg9ERlCnoPw" name="no_disposition" label="no_disposition" sourceType="INT4" talendType="id_Integer">
+        <initialValue xmi:id="_v53mc--9EeKEg9ERlCnoPw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_v53mdO-9EeKEg9ERlCnoPw" name="valeur_fonciere" label="valeur_fonciere" precision="2" sourceType="NUMERIC" talendType="id_Double">
+        <initialValue xmi:id="_v53mde-9EeKEg9ERlCnoPw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_T0RlgFA4EeOZ0cD_u5XJ2w" name="id_disposition_temp" label="id_disposition_temp" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_z-vscFA5EeOZ0cD_u5XJ2w" name="id_mutation_temp" label="id_mutation_temp" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
