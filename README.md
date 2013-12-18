@@ -4,8 +4,9 @@ MAJIC_DVF
 ETL permettant l'extraction et le traitement des données foncières diffusées par la DGFiP
 
 Utilisation
+-----------
 
-1. Paramétrer les fichiers de contexte
+# 1. Paramétrer les fichiers de contexte #
 
 Les fichiers de contexte se trouvent pour chaque "job" dans le sous-répertoire "dvf/_nomdujob_/contexts/test.properties"
 
@@ -30,7 +31,7 @@ Localisation des répertoires de travail
 
 Il est nécessaire de s'assurer que l'utilisateur dispose bien des droits d'écriture sur ces répertoires
 
-2. Exécuter le job
+## 2. Exécuter le job ##
 
 En fonction de la plateforme, dans chaque répertoire de job, un fichier .bat (windows) ou .sh (unix / osx) permet d'exécuter le job.
 
