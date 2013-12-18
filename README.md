@@ -50,3 +50,4 @@ Les jobs s'exécutent dans l'ordre suivant:
 
 Les jobs 'A' et 'C' concernant les dictionnaires, il n'est pas forcément nécessaire de les exécuter à chaque import s'ils sont exhaustif. Il pourrait être envisagé de partager directement ces dictionnaires.
 
+# Attention - version de développement #
