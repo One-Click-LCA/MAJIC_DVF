@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="local">
+  <contextParameter comment="extension de la collectivité pour les fichiers majic" name="extfichier" prompt="extfichier?" promptNeeded="false" type="id_String" value="&quot;.620&quot;"/>
+  <contextParameter comment="chemin vers le répertoire contenant les fichiers majic traités" name="target_path" prompt="target_path?" promptNeeded="false" type="id_String" value="&quot;/Users/thomasbrosset/majic/traites/&quot;"/>
+  <contextParameter comment="nom du fichier csv nbati article 10" name="nbat10" prompt="nbat10?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter comment="chemin vers le répertoire contenant les fichiers majic source" name="source_path" prompt="source_path?" promptNeeded="false" type="id_String" value="&quot;/Users/thomasbrosset/majic/source/&quot;"/>
+  <contextParameter comment="Chemin du dossier temporaire" name="temp_path" prompt="temp_path?" promptNeeded="false" type="id_String" value="&quot;/Users/thomasbrosset/majic/temp/&quot;"/>
+  <contextParameter comment="chemin vers le répertoire contenant des données externes" name="externals_path" prompt="externals_path?" promptNeeded="false" type="id_String" value="&quot;/Users/thomasbrosset/majic/externals/&quot;"/>
+</talendfile:ContextType>

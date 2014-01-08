@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_arrAEEcBEeOmC-LfIav_dw" name="mutation_article_cgi_sans_id_article_cgi" comment="connectionComment" label="mutation_article_cgi_sans_id_article_cgi" dataPackage="_6rYZESXzEeOcldV0Jv69ng"/>
+  <TalendMetadata:GenericPackage xmi:id="_6rYZESXzEeOcldV0Jv69ng" dataManager="_arrAEEcBEeOmC-LfIav_dw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6rYZEiXzEeOcldV0Jv69ng" name="metadata" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6rYZFSXzEeOcldV0Jv69ng" name="article_cgi" id="186340" label="article_cgi" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_6rYZFiXzEeOcldV0Jv69ng"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_i5m-UFEnEeO11NCnajHKUg" name="id_mutation_temp" label="id_mutation_temp" talendType="id_String" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZdQQkEYOEeOmC-LfIav_dw" name="ordre_article_cgi" label="ordre_article_cgi" sourceType="INT4" talendType="id_Integer" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

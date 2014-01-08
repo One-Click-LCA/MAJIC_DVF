@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Ee1iMFBcEeOZ0cD_u5XJ2w" name="mutation_article_cgi_non_normalise_avec_cle" label="mutation_article_cgi_non_normalise_avec_cle" dataPackage="_jF8tgUYsEeOmC-LfIav_dw"/>
+  <TalendMetadata:GenericPackage xmi:id="_jF8tgUYsEeOmC-LfIav_dw" name="repository.metadataGenericSchema" dataManager="_Ee1iMFBcEeOZ0cD_u5XJ2w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jF8tgkYsEeOmC-LfIav_dw" name="metadata" id="_gVafkEYsEeOmC-LfIav_dw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_IVPMAFBcEeOZ0cD_u5XJ2w" name="id_mutation_temp" label="id_mutation_temp" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jF8thUYsEeOmC-LfIav_dw" name="a_articles_cgi" label="a_articles_cgi" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jF8thkYsEeOmC-LfIav_dw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jF8th0YsEeOmC-LfIav_dw" name="b_articles_cgi" label="b_articles_cgi" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jF8tiEYsEeOmC-LfIav_dw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jF8tiUYsEeOmC-LfIav_dw" name="c_articles_cgi" label="c_articles_cgi" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jF8tikYsEeOmC-LfIav_dw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jF8ti0YsEeOmC-LfIav_dw" name="d_articles_cgi" label="d_articles_cgi" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jF8tjEYsEeOmC-LfIav_dw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jF8tjUYsEeOmC-LfIav_dw" name="e_articles_cgi" label="e_articles_cgi" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_jF8tjkYsEeOmC-LfIav_dw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

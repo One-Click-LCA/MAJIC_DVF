@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Y25nUFA3EeOZ0cD_u5XJ2w" name="repository.metadataGenericSchema" dataPackage="_o-KroUYMEeOmC-LfIav_dw" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_o-KroUYMEeOmC-LfIav_dw" name="repository.metadataGenericSchema" dataManager="_Y25nUFA3EeOZ0cD_u5XJ2w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_o-KrokYMEeOmC-LfIav_dw" name="metadata" id="_UaUNEEYMEeOmC-LfIav_dw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o-Kro0YMEeOmC-LfIav_dw" name="id_suf" label="id_suf" sourceType="INT4" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o-KrpEYMEeOmC-LfIav_dw" name="id_dispoparc" label="id_dispoparc" sourceType="INT4" talendType="id_Integer" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o-KrpUYMEeOmC-LfIav_dw" name="id_suf_cplmt" label="id_suf_cplmt" sourceType="INT4" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o-KrpkYMEeOmC-LfIav_dw" name="nature_culture" label="nature_culture" length="2" sourceType="INT4" talendType="id_Integer" originalLength="2"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o-Krp0YMEeOmC-LfIav_dw" name="nature_culture_speciale" label="nature_culture_speciale" length="5" sourceType="INT4" talendType="id_Integer" originalLength="5"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o-KrqEYMEeOmC-LfIav_dw" name="surface_terrain" label="surface_terrain" precision="2" sourceType="NUMERIC" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wkrg4FBbEeOZ0cD_u5XJ2w" name="id_suf_temp" label="id_suf_temp" sourceType="VARCHAR" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xVersFBbEeOZ0cD_u5XJ2w" name="id_dispoparc_temp" label="id_dispoparc_temp" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

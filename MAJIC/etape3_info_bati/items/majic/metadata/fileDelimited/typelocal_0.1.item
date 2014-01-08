@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_UmUiEP_oEeCSpMqzPpSI3A" dataPackage="_UmUiEf_oEeCSpMqzPpSI3A" Server="Localhost 127.0.0.1" FilePath="C:/Users/Thomas BROSSET/Documents/majic/typelocal.csv" Encoding="UTF-16LE" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_UmUiEf_oEeCSpMqzPpSI3A" dataManager="_UmUiEP_oEeCSpMqzPpSI3A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_UmVJJP_oEeCSpMqzPpSI3A" id="_GNqZAB_REeCqiJ69lrXidQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UmVJIP_oEeCSpMqzPpSI3A" name="" label="dteloc" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UmVJIf_oEeCSpMqzPpSI3A" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UmVJIv_oEeCSpMqzPpSI3A" name="" label="Signification" length="67" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_UmVJI__oEeCSpMqzPpSI3A" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
